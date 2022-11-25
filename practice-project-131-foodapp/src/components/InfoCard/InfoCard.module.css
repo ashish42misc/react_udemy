@@ -1,0 +1,14 @@
+.infocard{
+    width:40%;
+    background: #3f3f3f;
+    margin: auto;
+    color: cornsilk;
+}
+
+.infocard p{
+    font-size:small
+}
+
+.infocard h3{
+    text-align: center;
+}

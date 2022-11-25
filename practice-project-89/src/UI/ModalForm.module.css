@@ -1,0 +1,39 @@
+.modalForm {
+  position: fixed;
+  z-index: 10;
+  color: aliceblue;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+  overflow: hidden;
+}
+
+.modalForm_header {
+  padding: 1rem;
+  background: #4f005f;
+}
+
+.modalForm_body {
+  padding: 5px;
+  height: 50px;
+  color: black;
+  padding: 1rem;
+}
+
+.modalForm_actions {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.backdrop {
+  background:  rgba(0, 0, 0, 0.75);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+

@@ -1,0 +1,32 @@
+.mealitemcontainer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between 
+}
+
+.mealitem {
+    display:inline-block;
+    padding: 10px;
+    
+}
+
+.title {
+    font-size: medium;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.description {
+    font-size: small;
+    font-style: italic;
+    padding: 3px;
+}
+.price {
+    font-weight: bold;
+    color: brown;
+    padding: 3px;
+}
